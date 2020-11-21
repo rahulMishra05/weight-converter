@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- The CSS of the project -->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin-top: 70px;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-4 text-center">Weight Converter</h1>
+
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control form-control-lg" placeholder="Enter Pounds..." id="lbsInput">
+                    </div>
+                </form>
+
+                <!-- Here output will be displayed -->
+                <div id="output">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4>Grams:</h4>
+                            <!-- The output in grams will come here -->
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-block">
+                        <h4>KIlograms:</h4>
+
+                        <!-- The output in Kilograms will come here -->
+                        <div id="kgOutput"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-block">
+                        <h4>Ounces:</h4>
+
+                        <!-- The output in ounces will come here -->
+                        <div id="ozOutput"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
